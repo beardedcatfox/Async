@@ -1,8 +1,8 @@
 import asyncio
 import re
+import time
 
 from aiohttp import ClientSession
-import time
 
 url_1 = 'https://www.7timer.info/bin/astro.php?lon=36.2288&lat=49.9899&output=json'
 url_2 = 'https://api.open-meteo.com/v1/forecast?latitude=49.9935&longitude=36.2304&current_weather=True'
